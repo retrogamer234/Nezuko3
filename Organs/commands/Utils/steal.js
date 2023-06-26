@@ -14,8 +14,8 @@ module.exports = {
    pack = anu[0] !== '' ? anu[0] : 'ETERNITY'
    author = anu[1] !== '' ? anu[1] : 'THE BEST IS YET TO BE'
    } else {
-       pack = 'ɪᴢᴜᴍɪ'
-       author = 'ɪᴢᴜᴍɪ'
+       pack = 'Ｍｉｔｓｕ'
+       author = ''
        }
 if(/webp/.test(mime)) {
 let media = await quoted.download()
