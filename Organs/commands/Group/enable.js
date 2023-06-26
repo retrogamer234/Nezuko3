@@ -17,7 +17,7 @@ module.exports = {
         { text: "This is admin only command" },
         { quoted: m }
       );
-    if (!isBotAdmin) return m.reply("Make me admin to use this command");
+    if (!args[0]) return m.reply("Make me admin to use this command");
     if (!text) return m.reply("No option provided!!");
     if (args[0] == "mod") {
       if (mods.includes(`${m.from}`))
